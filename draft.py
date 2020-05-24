@@ -1,14 +1,4 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-import ssl
+import pandas as pd
 
-ssl._create_default_https_context = ssl._create_unverified_context
-
-html = urlopen("file:///Users/urij/Downloads/5.html").read().decode('utf-8')
-s = str(html)
-soup = BeautifulSoup(s, 'html.parser')
-answer = 0
-
-for a in soup.find_all('td'):
-    answer += int(a.get_text())
-print(answer)
+a = pd.read_excel('salaries.xlsx', index_col=0)
+print(a.median(axis=1).idxmax(), a.mean(axis=0).idxmax())
