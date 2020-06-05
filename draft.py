@@ -1,13 +1,19 @@
 import xmltodict
 
-fin = open('map1.osm', 'r', encoding='utf8')
+fin = open('map2.osm', 'r', encoding='utf8')
 xml = fin.read()
 fin.close()
-counterIn, counterNotIn = 0, 0
+counter = 0
 parsedxml = xmltodict.parse(xml)
 for node in parsedxml['osm']['node']:
     if 'tag' in node:
-        counterIn += 1
-    else:
-        counterNotIn += 1
-print(counterIn, counterNotIn)
+        tags = node['tag']
+        name = 'noname'
+        if isinstance(tags, list):
+            for tag in tags:
+                if '@k' in tag and tag['@k'] == 'amenity' and tag['@v'] == 'fuel':
+                    counter += 1
+        elif isinstance(tags, dict):
+            if (tags['@v']) == 'fuel':
+                counter += 1
+print(counter)
