@@ -1,1 +1,8 @@
 1. Обработка web-страниц
+2. Электронные таблицы
+3. XML
+4. Визуализация с pyplot
+5. Публикация данных
+python3 -m http.server --cgi
+chmod hello.py
+localhost:8000/cgi-bin/hello.py
