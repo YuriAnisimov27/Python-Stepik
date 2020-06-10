@@ -24,3 +24,9 @@ print("<h1>" + str(ohash(text)) + "</h1>")
 
 print("""</body>
         </html>""")
+
+# index.html :
+# <form action="/cgi-bin/hello.py">
+#     <input type="text" name="INPUT_TEXT">
+#     <input type="submit">
+# </form>
