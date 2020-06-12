@@ -1,6 +1,6 @@
-number = int(input())
-answer = number
-while number:
-    number = int(input())
-    answer += number
-print(answer)
+a = int(input())
+b = int(input())
+d = a
+while d % b:
+    d += a
+print(d)
