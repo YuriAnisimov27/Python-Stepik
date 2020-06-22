@@ -1,10 +1,16 @@
-def modify_list(l):
-    # for i in l:
-    #     if i % 2 != 0:
-    #         l.remove(i)
-    l = list(map(lambda x: x // 2, l))
+def update_dictionary(d, key, value):
+    if key in d:
+        d[key] += [value]
+    elif 2 * key in d:
+        d[2 * key] += [value]
+    else:
+        d[2 * key] = [value]
 
 
-lst = [10, 5, 8, 3]
-modify_list(lst)
-print(lst)
+d = {}
+print(update_dictionary(d, 1, -1))  # None
+print(d)  # {2: [-1]}
+update_dictionary(d, 2, -2)
+print(d)  # {2: [-1, -2]}
+update_dictionary(d, 1, -3)
+print(d)  # {2: [-1, -2, -3]}
