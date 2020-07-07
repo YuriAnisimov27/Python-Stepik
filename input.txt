@@ -1,9 +1,81 @@
-4
-champions
-we
-are
-Stepik
-3
-We are the champignons
-We Are The Champions
-Stepic
+8	Flatcher	166
+1	Saunder	120
+2	Bush	126
+1	Ellington	125
+8	Clapton	169
+7	Charlson	156
+3	Carroll	133
+6	Becker	155
+10	Vance	170
+6	Simon	152
+1	Hawkins	122
+5	Morrison	146
+8	Parkinson	163
+3	Kingsman	130
+5	Arnold	149
+3	Smith	140
+4	Jeff	139
+11	Birch	177
+4	Palmer	143
+2	Roberts	135
+1	Dickinson	130
+5	Bush	145
+1	Derrick	130
+10	Donovan	166
+5	Taylor	144
+10	Longman	174
+1	Albertson	120
+5	Alsopp	148
+4	Derrick	139
+11	Forman	176
+7	Mathews	159
+1	Youmans	128
+8	MacDonald	160
+9	Haig	171
+11	Fulton	174
+1	Sykes	123
+7	Gerald	160
+9	Simon	168
+8	Bradshaw	165
+7	Laird	158
+9	Donaldson	175
+10	Charlson	171
+4	Cook	141
+5	Chesterton	145
+2	Day	132
+4	Wallace	135
+4	Arnold	136
+11	Ramacey	172
+10	Owen	173
+1	Little	130
+3	Birch	130
+5	Thorndike	148
+11	Oliver	175
+1	Hailey	126
+3	Kennedy	140
+4	Russel	137
+10	Dunce	175
+1	Dowman	126
+11	Sykes	174
+7	Hailey	165
+2	Gate	132
+7	Alsopp	155
+1	Francis	130
+8	Hardman	162
+2	Chapman	131
+6	Benson	157
+8	Vance	165
+4	Pass	135
+10	Bawerman	172
+6	Fraser	150
+1	Larkins	127
+8	Bargeman	170
+1	Gilbert	128
+6	Parson	155
+11	Macey	179
+6	Philips	160
+6	Hardman	152
+1	Bootman	120
+1	Michaelson	122
+3	Hoggarth	134
+2	Derrick	134
