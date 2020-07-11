@@ -1,4 +1,3 @@
-
 mn = []
 for obj in objects:
     if obj not in mn:
